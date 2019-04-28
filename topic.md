@@ -4,6 +4,6 @@
 ### Bianchi is from Hiroshima, Japan.  He was adopted from a family that had a litter of kittens.  He was so small that he fit in one hand.  My wife surprised me with Bianchi as a birthday present.  I told her that if Lolita doesn't like him, he is going back to the family.  Unfortunately for me, Lolita liked Bianchi in the begging.  When he grew to his size now, 13 lbs, she tolerates him until he wants to play with her when he was smaller.  Now Lolita will play with him until he tackles her, then she starts biting him so that he will get off of her.
 ### They are our little Princess & Prince of the family.
 
-![DOGCAT](DOGCAT2.jpg)
+![DOGCAT](DOG23.jpg)
 
 [INDEX](index.md)
