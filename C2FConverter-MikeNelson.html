@@ -5,20 +5,17 @@
   <title>Convert temperature to and from celsius, fahrenheit</title>
   </head>
   <body>
-    <div id="celcius">
-    <input type="number" placeholder="celsius..">
-    </div>
-    <div id="fahrenheit">
-      <input type="number" placeholder="fahrenheit...">
-    </div>
-   
-   <script>
-      var cel=doucument.getElementById('celsius')
-      var far=document.getElementById('fahrenheit')
-                                                                
-      function c2f() {
-      far.value=(1.8*cel.value)+32
-      alert(cel.value+' Celsius is equal to '+far.value+' fahrenheit')
-                      }
+  <script type="text/javascript">
+  <!--
+      var fahrenheit, celsius
+      
+      fahrenheit= prompt("Please enter degrees in F",0)
+      celsius=(fahrenheit-32)*(5/9)
+    
+    alert(fahrenheit+"F degrees in Celsius is" +celsius+"C")
+    
+    //-->
    </script>
+    
+  </body>
   </html>
