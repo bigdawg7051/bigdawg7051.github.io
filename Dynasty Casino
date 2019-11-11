@@ -1,0 +1,47 @@
+<!DOCTYOM html>
+<html lang="en">
+
+<head>
+
+<meta charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content=" ie=edge">
+
+<title>Document</title>
+
+</head>
+
+<body style="background-color: #yellow;"></body>
+
+<h1> Chip Counter Program</h1>
+
+<p> Chips are counted and the total sum is calculated on values.</p>
+
+<li> <h3>Black Chip=$5</h3></li>
+
+<li> <h3>Blue Chip=$20</h3></li>
+
+<li> <h3>Red Chip=$50</h3></li>
+
+<li> <h3>Green Chip=$100</h3></li>
+
+<script>
+var nTotalvalue=0,nTotalcount=0, sEntry, nQty; sEntry=prompt("Entry Quantity Black Chip", "0")
+nQty=parseInt(sEntry);nTotalvalue=nQty*5+nTotalvalue;nTotalcount+nQty;
+
+	document.write("<h2>Black Chip Qty="+nQty+", Value=$"+nQty*5+"<h2">");
+sEntry=prompt("Entry Quantity Blue Chip","0")nQty=parseInt(sEntry);nTotalvalue=nQty*20+nTotalvalue;nTotalcount=nTotalcount+nQty;
+
+	document.write(<"h2 style='color:blue'>Blue Chip Qty="+nQty+", value=$"+nQty*20+"<h2>");sEntry=prompt("Entry Quantity Red Chip","0")nQty=parseInt(sEntry);
+nTotalvalue=nQty*50+nTotalvalue;nTotalcount=nTotalcount+nQty;
+
+	document.write(<"h2 style='color:red'>Red Chip Qty="+nQty+", value=$"+nQty*50+"<h2>");sEntry=prompt("Entry Quantity Red Chip","0")nQty=parseInt(sEntry);
+nTotalvalue=nQty*100+nTotalvalue;nTotalcount=nTotalcount+nQty;
+
+	document.write(<"h2 style='color:green'>Green Chip Qty="+nQty+", value=$"+nQty*100+"<h2>");
+	
+	document.write("<h2 style='h1 style='color: purple'>All chips Qty="=nTotalcount+"<br>All chips Value=$"+nTotalvalue +"<h2>
+	
+</script>
+</body>
+</html>
