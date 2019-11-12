@@ -6,6 +6,7 @@
 </head>
 <body style="background-color: #ffff99;">	
   <h1> style="color:#ffff00; text-align: center;">Chip Counting Program</h1>
+  
 <script>
 var nTotalvalue = 0, nTotalcount = 0, sEntry, nQty;
 sEntry = prompt("Enter Quantity Black Chip", "0");
@@ -19,13 +20,13 @@ nTotalvalue = nQty * 20 + nTotalvalue; nTotalcount = nTotalcount + nQty;
 document.write("<h2 style='color:#0000ff'>Blue Chip Qty = " + nQty + ", 
 value = $" + nQty * 20 + "</h2>");
 sEntry=prompt("Enter Quantity Red Chip", "0");
-nQty=parseInt(sEntry);
+nQty = parseInt(sEntry);
 nTotalvalue = nQty * 50 + nTotalvalue;
 nTotalcount = nTotalcount + nQty;
 document.write("<h2 style = 'color:#ff0000'>Red Chip Qty = " + nQty + ", 
 value = $" + nQty * 50 + "</h2>");
 sEntry=prompt("Enter Quantity Green Chip", "0")
-nQty=parseInt(sEntry);
+nQty  =parseInt(sEntry);
 nTotalvalue = nQty * 100 + nTotalvalue;
 nTotalcount = nTotalcount + nQty;
 document.write("<h2 style = 'color:#00ff00'>Green Chip Qty = " + nQty + ", 
