@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	     <meta charset="UTF-8"> 
-    <title>Dynasty Casino Chip Counter</title>
-
-	</head>
+	<head>
+	<meta charset="UTF-8"> 
+	<title>Dynasty Casino Chip Counter</title>
+</head>
 <body style="background-color: #ffff00;">
 <script>
 var _BlackChip = $5;
@@ -13,20 +12,20 @@ var _RedChip = $50;
 var _GreenChip = $100;
 var _Totalvalue = 0, _Totalcount = 0, _Entry, _Qty;
 _Entry = prompt("Enter Quantity Black Chip", "0");
-_Qty = parseInt(_Entry); _Totalvalue = Qty * 5 + _Totalvalue; _Totalcount + _Qty;
-	document.write("<h2>Black Chip Qty = "+ _Qty +"; Value = $" + _Qty * 5+"</h2>");
+_Qty = parseInt(_Entry); _Totalvalue = _Qty * 5 + _Totalvalue; _Totalcount + _Qty;
+	document.write("<h2>Black Chip Qty = " + _Qty + "; Value = $" + _Qty * 5 "</h2>");
 _Entry = prompt("Enter Quantity Blue Chip", "0" ) _Qty = parseInt(_Entry);
 _Totalvalue = _Qty * 20 + _Totalvalue; _Totalcount = _Totalcount + _Qty;
-	document.write(<"h2 style='color:blue'>Blue Chip Qty =  "+ _Qty +", value = $ "+ _Qty * 20+"</h2>");
+	document.write(<"h2 style='color:blue'>Blue Chip Qty =  " + _Qty + ", value = $ " + _Qty * 20 + "</h2>");
 	_Entry = prompt("Enter Quantity Red Chip","0") _Qty = parseInt(_Entry);
 _Totalvalue = _Qty * 50 + _Totalvalue;
 _Totalcount = _Totalcount + _Qty;
-	document.write(<"h2 style = 'color:red'>Red Chip Qty = "+ _Qty +", value = $ " + _Qty * 50+"</h2>");
+	document.write(<"h2 style = 'color:red'>Red Chip Qty = " + _Qty + ", value = $ " + _Qty * 50 + "</h2>");
 	_Entry=prompt("Enter Quantity Red Chip","0")_Qty = parseInt(_Entry);
 _Totalvalue = _Qty * 100 + _Totalvalue;
 _Totalcount = _Totalcount + _Qty;
-	document.write(<"h2 style = 'color:green'>Green Chip Qty = "+ _Qty +", value = $ "+ _Qty * 100+"</h2>");
-	document.write("<h1 style = 'color:purple'>All Chips Qty = " + _Totalcount + "<br>All chips Value = $ "+ _Totalvalue "</h1>;
+	document.write(<"h2 style = 'color:green'>Green Chip Qty = " + _Qty + ", value = $ " + _Qty * 100 + "</h2>");
+	document.write("<h1 style = 'color:purple'>All Chips Qty = " + _Totalcount + "<br>All chips Value = $ " + _Totalvalue "</h1>;
 	
 </script>
 </body>
