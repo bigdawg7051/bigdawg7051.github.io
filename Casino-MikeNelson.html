@@ -10,8 +10,7 @@
 <p>Chips are counted and the total sum is calculated.</p>
 <script>
 var nTotalvalue = 0, nTotalcount = 0, sEntry, nQty;
-	
-	sEntry=prompt ("Entry Quantity Black Chip", "0");
+	sEntry = prompt("Entry Quantity Black Chip", "0");
 	nQty = parseInt(sEntry);
 nTotalvalue = nQty * 5 + nTotalvalue;
 nTotalcount = nTotalcount + nQty;
@@ -21,7 +20,7 @@ nTotalcount = nTotalcount + nQty;
 nTotalvalue = nQty * 20 + nTotalvalue;
 nTotalcount = nTotalcount + nQty;
 	document.write("<h2 style='color:#0000ff'>Blue Chip Qty= " + nQty + "; value=$" + nQty * 20 + "</h2>");
-	sEntry=prompt ("Enter Quantity Red Chip","0");
+	sEntry=prompt("Enter Quantity Red Chip","0");
 	nQty=parseInt(sEntry);
 nTotalvalue = nQty * 50 + nTotalvalue;
 nTotalcount = nTotalcount + nQty;
@@ -35,7 +34,7 @@ nTotalcount = nTotalcount + nQty;
 	document.write("<h1 style ='color:#ff00ff'>All chips Qty = "
 	+ nTotalcount + "<br>All chips Value = $ " + nTotalvalue 
 	+ "</h2>);
-	
+
 </script>
 </body>
 </html>
