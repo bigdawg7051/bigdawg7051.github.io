@@ -1,0 +1,23 @@
+<!doctype html>
+<html lan"en">
+<head>
+<title>Celsius to fahrenheit Converter</title>
+</head>
+<body>
+<input type='number' placeholder='Enter the value of Celsius' id='celsius' />
+<p/>
+<input type='number' placeholder='fahrenheit is' id='fahrenheit' disabled />
+<input tupe='button' onClick='c2f()"value='Convert' />
+</body>
+
+<script>
+var cel=document.getElementById('celsius')
+var far=document.getElementById('fahrenheit')
+
+function c2f(){
+far.value=(1.8*cel.value)+32
+alert(cel.value+' Celsius is equal to '+far.value+' fahrenheit')
+}
+</script>
+</body>
+</head>
