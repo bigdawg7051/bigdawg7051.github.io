@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+     <meta charset="utf-8">
+     <title>Gussing the Number</title>
+  </head>
+  <body>
+    <h2>Gusseing number program</h2>
+    <p>Mike Nelson</p>
+    <script>
+    var sNumber, nAttempt, nCount=0;
+    nNumber = Math.floor(Math.random()*10);
+    
+    while(nCount < 5)
+    { 
+    nAttempt = parseInt(window.prompt("Guss number between 9 to 0 and prompt it!", ""));
+    nCount = nCount + 1;
+     if(nAttempt == nNumber)
+        {
+        document.write("Attempt number = " + nAttempt + " is correct. You win!!" + "<br>" );
+        break ;
+        }
+        else if (nAttempt < nNumber)
+        {
+        document.write("Attempt number =" + nAttempt + " is low. " + "<br>");   
+        alert("Too Low");  
+        }
+        else
+        {
+        document.write("Attempt number =" + nAttempt + " is high. " + "<br>");   
+        alert("Too High");
+        }
+
+    }
+    document.write("<h2>Did you enjoy? Thanks.</h2>");
+   </script>
+   </body>
+   </html>
