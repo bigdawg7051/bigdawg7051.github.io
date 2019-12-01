@@ -2,10 +2,10 @@
 <html lang="en">
   <head> 
      <meta charset="utf-8">
-     <title>Gussing the Number</title>
+     <title>Guess the Number</title>
   </head>
   <body>
-    <h2>Gusseing number program</h2>
+    <h2>Guess the Number Program</h2>
     <p>Mike Nelson</p>
     <script>
     var sNumber, nAttempt, nCount=0;
@@ -13,7 +13,7 @@
     
     while(nCount < 5)
     { 
-    nAttempt = parseInt(window.prompt("Guss number between 9 to 0 and prompt it!", ""));
+    nAttempt = parseInt(window.prompt("Guess a number between 0 to 9 and prompt it!", ""));
     nCount = nCount + 1;
      if(nAttempt == nNumber)
         {
@@ -32,7 +32,7 @@
         }
 
     }
-    document.write("<h2>Did you enjoy? Thanks.</h2>");
+    document.write("<h2>How did you do? </h2>");
    </script>
    </body>
    </html>
