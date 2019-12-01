@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> 
-     <meta charset="utf-8">
-     <title>Guess the Number</title>
-  </head>
-  <body>
-    <h2>Guess the Number Program</h2>
-    <p>Mike Nelson</p>
-    <script>
-    var sNumber, nAttempt, nCount=0;
-    nNumber = Math.floor(Math.random()*10);
-    
-    while(nCount < 5)
-    { 
-    nAttempt = parseInt(window.prompt("Guess a number between 0 to 9 and prompt it!", ""));
-    nCount = nCount + 1;
-     if(nAttempt == nNumber)
-        {
-        document.write("Attempt number = " + nAttempt + " is correct. You win!!" + "<br>" );
-        break ;
-        }
-        else if (nAttempt < nNumber)
-        {
-        document.write("Attempt number =" + nAttempt + " is low. " + "<br>");   
-        alert("Too Low");  
-        }
-        else
-        {
-        document.write("Attempt number =" + nAttempt + " is high. " + "<br>");   
-        alert("Too High");
-        }
+<head>
+  <meta charset="utf-8">
+  <title>Guess the Number</title>
+</head>
+<body>
+ <h2>Guess the Number Program</h2>
+ <p>Mike Nelson</p>
+ <script>
+ var sNumber, nAttempt, nCount=0;
+ nNumber = Math.floor(Math.random()*10);
+ 
+ while(nCount < 5)
+ { 
+ nAttempt = parseInt(window.prompt("Guess a number between 0 to 9 and prompt it!", ""));
+ nCount = nCount + 1;
+  if(nAttempt == nNumber)
+     {
+     document.write("Attempt number = " + nAttempt + " is correct. You win!!" + "<br>" );
+     break ;
+     }
+     else if (nAttempt < nNumber)
+     {
+     document.write("Attempt number =" + nAttempt + " is low. " + "<br>");   
+     alert("Too Low");  
+     }
+     else
+     {
+     document.write("Attempt number =" + nAttempt + " is high. " + "<br>");   
+     alert("Too High");
+     }
 
-    }
-    document.write("<h2>How did you do? </h2>");
+ }
+ document.write("<h2>How did you do?</h2>");
    </script>
    </body>
    </html>
