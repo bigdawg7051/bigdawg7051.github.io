@@ -30,6 +30,12 @@ nTotalvalue = nQty * 100 + nTotalvalue;
 nTotalcount = nTotalcount + nQty;
 document.write("<h2 style= 'color:#00ff00'>Green Chip Qty = " + nQty 
 + "value = $" + nQty * 100 + "</h2>");
+sEntry = prompt("Enter Quantity Gold Chip", "0")
+nQty = parseInt(sEntry);
+nTotalvalue = nQty * 500 + nTotalvalue;
+nTotalcount = nTotalcount + nQty;
+document.write("<h2 style= 'color:#ffd700'>Gold Chip Qty = " + nQty
++ "value = $" + nQty * 500 + "</h2>");
 document.write("<h1 style= 'color:#ff00ff'>All chips Qty = " 
 + nTotalcount + "<br>All chips Value = $" + nTotalvalue + "</h1>");
 
