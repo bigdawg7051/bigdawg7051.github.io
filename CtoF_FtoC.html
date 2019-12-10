@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+<meta charset="utf=8">
+<title> Temperature Conversion Program F to C, C to F</title>
+</head>
+<body style="background-color:#f0ebcf; color: #b45252;">
+<h1 style="color:#58da3e; text-align: center;">Temperature Conversion from C to F or F to C</h1>
+<script> 
+var Ctemp, Ftemp, Fresult;
+Ctemp = window.prompt("Is Entry degrees C or F?","0");
+if (Ctemp == "C" || Ctemp =="c")
+{
+Ftemp = parseFloat (window.prompt("Enter C degrees:", "0"));
+Fresult = Ftemp*9/5 + 32;
+document.write("<h2 style=\"color:#ffb6c1; text-align: center;\">" + Ftemp + " C = " + Fresult + " F</h2>");
+}
+else 
+{
+Ftemp = parseFloat (window.prompt("Enter F degrees:", "0"));
+Fresult =(Ftemp - 32)*5/9;
+document.write("<h2 style=\"color:#cc338b; text-align: center;\">" + Ftemp + "F = " + Fresult + " C</h2>");
+}
+</script>
+<h2><big><a href="index.html">Home</a></big></h2>
+
+</body>
+  </html>
