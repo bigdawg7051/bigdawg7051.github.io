@@ -5,7 +5,7 @@
     <title>Casino Chip & Tax</title>
 </head>
 <body style="background-color: #99ccff; color: #99ff99; text-align: center">
-    <script type="text/javascript">
+    <script>
     var sChipColor = ["Black", "Blue", "Red", "Green", "Gold"];
     var nChipValue = [5, 20, 50, 100, 500];
     var nReceipts, nChipTotal, nWinnings;
@@ -18,16 +18,13 @@
     nWinnings = nChipTotal - nReceipts;
     DisplayResurlts(nChipTotal, nWinnings);
 
-    function getReceipts()
-    {
+    function getReceipts() {
         var nSum = 0;
-        for(var nI = 1; nI < 100; nI++);
-    {
+        for(var nI = 1; nI < 100; nI++); {
         var nEntry = parseInt(window.promt("Enter Receipt" + nI + " pr Q to quit",""));
         if(isNaN(nEntry))
         break;
-        if(nEntry < 0)
-    {
+        if(nEntry < 0) {
         alert("Receipts cannot be negative|\nTry again.");
         continue;
 
