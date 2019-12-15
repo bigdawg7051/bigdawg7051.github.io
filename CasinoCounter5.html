@@ -23,7 +23,7 @@
     function getReceipts()
     {
         var nSum = 0;
-        for(var nI = 1; nI < 100; nI++)
+        for(var nI = 1; nI < 100; nI++);
     {
         var nEntry = parseInt(window.promt("Enter Receipt" + nI + " pr Q to quit",""));
         if(isNaN(nEntry))
@@ -71,7 +71,7 @@
     }
     else {
         fTax = 0;
-        document.write("<h2>Sorry you loser $" + (-nWin) + ", you are loser.</h2>")
+        document.write("<h2>Sorry you loser $" + (-nWin) + ", you are loser.</h2>");
     }
     fCashOut = nTotal - fTax;
     document.write("<p>Tax Withheld = $" + fTax + "for SSN = " + sSSN + "</p>");
